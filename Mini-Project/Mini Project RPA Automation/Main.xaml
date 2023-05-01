@@ -1,0 +1,151 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1175,1562.9999999999998" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="46">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="52">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,1498" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="placename" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="434,243" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Place Name" Title="Enter the place name">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[placename]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: OYO: India's Best Online Hotel Booking Site for Sanitised Stays" sap:VirtualizedContainerService.HintSize="434,1104" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="f2b2f317-5382-470e-b88a-9777c7b34c56" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,886" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT autoComplete__home'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="338,219" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f2b2f317-5382-470e-b88a-9777c7b34c56" Text="[placename]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.oyorooms.com/" DesignTimeRectangle="256, 359, 547, 58" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT autoComplete__home'" FullSelectorArgument="&lt;webctrl id='autoComplete__home' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='autoComplete__home' tag='INPUT' type='text' class='autoCompleteDesktop__searchBox&amp;#xA;              autoCompleteDesktop__searchBox--home&amp;#xA;              autoCompleteDesktop__searchBox--nearbyVisible' aaname='' /&gt;" Guid="91a391f7-a019-46c7-9ddf-e545245c3cbb" ImageBase64="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" InformativeScreenshot="e80002ec5843c2372c164106eaa43564.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OYO: India&amp;apos;s Best Online Hotel Booking Site for Sanitised Stays' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Search'" sap:VirtualizedContainerService.HintSize="338,158" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f2b2f317-5382-470e-b88a-9777c7b34c56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.oyorooms.com/" DesignTimeRectangle="1499, 358, 165, 60" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Search'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='u-textCenter searchButton searchButton--home' aaname='Search' check:innerText='Search' /&gt;" Guid="520d4924-8e83-472f-a6df-26bbdc2b11ba" ImageBase64="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" InformativeScreenshot="e29e2b1a3857ea6dd1a43529bac8397f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OYO: India&amp;apos;s Best Online Hotel Booking Site for Sanitised Stays' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 0' ReferenceName='Column0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 1' ReferenceName='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 2' ReferenceName='Column2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 3' ReferenceName='Column3'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 4' ReferenceName='Column4'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 5' ReferenceName='Column5'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='text'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column4' attr='text'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='3' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='text'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="338,158" sap2010:WorkflowViewState.IdRef="NExtractData_1" InteractionMode="Simulate" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="f2b2f317-5382-470e-b88a-9777c7b34c56" Version="V3">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="427, 265, 1484, 7409" DesignTimeScaleFactor="1" FriendlyName="'40 OYOs'" FullSelectorArgument="&lt;webctrl class='listing__contentWrapper' parentid='root' tag='DIV' /&gt;" Guid="fa18575c-24b9-4f6e-b804-9584d4986b6a" InformativeScreenshot="115e493c3273e9e611e4ceb729ee629a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hotels in Starting @ ₹539 - Upto 87% OFF on 40 Hotels' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="338,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="OYO" WorkbookPath="DatafromOYO.xlsx" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF9SURBVDhPpVPNSgJhFJ2VvoLL/n93QSVRtiioqKBdm1r0BC2CgtoGERSE0DPYIgqrpfUA1aJM6QEq3djoyGiMo57u+ZwRyymwLhzmzD3nHub7Ga2x9IEuv2BOcCJ4FdgOyNmj5nfsX0uEgCAsyArwA6jRE3DGasWGICrwGvICvbUQIT4BU72Mv4EzPgZwXe96fyf03nbofR2ocz4bOTWXc0ZmGRBhIxscQn5lGcbCDHITQeTXVpEdH0Eu5PCxYaXRQ68TEtEk9YWm0k0MVcNAJfWGj+Mwys9JWGensC6jsB8fUDw6FC2lPKXrmArmrKb3tNnm9iYqmQzMjXVY0XOUE3EUD/ZRLRRQNU0U9nZRfoorjR7llRnO1gOqjQHJBHLTk7Dv7wS3yE2FVM87wF2CfJZaQjoNc2dL7bR1daFAzh615iW4mzjqbOLiLPTBbjVkLM0rkLNHrXkTvY6xds41/v3d4xj/d5Gc2/j3q+wWGwKmtv4zuSVCi7+zpn0CWD4nCRTG6hYAAAAASUVORK5CYII=" InformativeScreenshot="2394c75827e74cc00cef31cc8c68b260.jpg" Selector="&lt;html app='chrome.exe' title='OYO: India&amp;apos;s Best Online Hotel Booking Site for Sanitised Stays' /&gt;" Url="https://www.oyorooms.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
